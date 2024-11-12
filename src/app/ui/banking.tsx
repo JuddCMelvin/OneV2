@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Banking() {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-white px-6 py-4">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-white rounded-3xl px-6 py-4">
             <div className="flex flex-col items-center md:flex-row md:items-start md:justify-center md:space-x-10 max-w-5xl">
                 {/* Row 1 */}
                 <div className="flex flex-col space-y-4 w-full md:w-1/2 text-center md:text-left">
@@ -27,60 +27,60 @@ export default function Banking() {
             </div>
 
             {/* Row 2 */}
-            <div className="flex flex-col md:flex-row items-center md:items-start justify-center space-y-4 md:space-y-0 md:space-x-10 max-w-5xl mt-8">
+            <div className="flex flex-col md:flex-row md:items-center md:items-start justify-between space-y-4 md:space-y-0 md:space-x-10 max-w-5xl mt-8">
                 <div className="flex w-full md:w-1/2 items-start space-x-4">
-                    <Image
-                        src="/one_icon_1.png" // Replace with your image path
-                        alt="Feature image 1"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                    />
                     <div>
-                        <p className="font-semibold text-gray-800">Earn up to 5% cash back3</p>
+                        <Image
+                            src="/icon_1 (1).svg" // Replace with your image path
+                            alt="Feature image 1"
+                            width={120}
+                            height={120}
+                            className="rounded-full"
+                        />
+                        <p className="font-bold text-2xl text-gray-800">Earn up to 5% cash back3</p>
                         <p className="text-gray-600">On select brands.</p>
                     </div>
                 </div>
                 <div className="flex w-full md:w-1/2 items-start space-x-4">
-                    <Image
-                        src="/one_icon_2.png" // Replace with your image path
-                        alt="Feature image 2"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                    />
                     <div>
-                        <p className="font-semibold text-gray-800">Earn up to 5% cash back3</p>
-                        <p className="text-gray-600">On select brands.</p>
+                        <Image
+                            src="/icon_2.svg" // Replace with your image path
+                            alt="Feature image 2"
+                            width={120}
+                            height={120}
+                            className="rounded-full"
+                        />
+                        <p className="font-bold text-2xl text-gray-800">4.35% APY on Savings4</p>
+                        <p className="text-gray-600">With eligible deposits.</p>
                     </div>
                 </div>
             </div>
 
             {/* Row 3 */}
-            <div className="flex flex-col md:flex-row items-center md:items-start justify-center space-y-4 md:space-y-0 md:space-x-10 max-w-5xl mt-4">
+            <div className="flex flex-col md:flex-row items-center md:items-start justify-between space-y-4 md:space-y-0 md:space-x-10 max-w-5xl mt-4">
                 <div className="flex w-full md:w-1/2 items-start space-x-4">
-                    <Image
-                        src="/one_icon_3.png" // Replace with your image path
-                        alt="Feature image 3"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                    />
                     <div>
+                        <Image
+                            src="/icon_3.svg" // Replace with your image path
+                            alt="Feature image 3"
+                            width={120}
+                            height={120}
+                            className="rounded-full"
+                        />
                         <p className="font-semibold text-gray-800">Earn up to 5% cash back3</p>
                         <p className="text-gray-600">On select brands.</p>
                     </div>
                 </div>
                 <div className="flex w-full md:w-1/2 items-start space-x-4">
-                    <Image
-                        src="/one_icon_4.png" // Replace with your image path
-                        alt="Feature image 4"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                    />
                     <div>
-                        <p className="font-semibold text-gray-800">Earn up to 5% cash back3</p>
+                        <Image
+                            src="/icon_4.svg" // Replace with your image path
+                            alt="Feature image 4"
+                            width={120}
+                            height={120}
+                            className="rounded-full"
+                        />
+                        <p className="font-bold text-2xl text-gray-800">Earn up to 5% cash back3</p>
                         <p className="text-gray-600">On select brands.</p>
                     </div>
                 </div>

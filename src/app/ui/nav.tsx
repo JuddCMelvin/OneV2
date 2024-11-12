@@ -15,10 +15,10 @@ export default function Nav() {
 
                 {/* Right - Links */}
                 <div className="flex space-x-4 items-center">
-                    <Link href="/signin" className="text-sm font-medium text-gray-700 hover:text-blue-600">
+                    <Link href="/signin" className="text-sm font-bold text-gray-700 hover:text-blue-600">
                         Sign In
                     </Link>
-                    <Link href="/join" className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md hover:bg-gray-800">
+                    <Link href="/join" className="px-8 py-2 text-sm font-medium text-white bg-black rounded-full hover:bg-gray-800">
                         Join One
                     </Link>
                 </div>
